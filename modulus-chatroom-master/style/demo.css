@@ -90,3 +90,30 @@ div#panel {
 #status {
 	color:red;
 }
+
+#next {
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	text-decoration: none;
+	color:#f0f0f0;
+}
+#next:hover {
+	color:orange;
+}
+
+#codeDiv {
+	text-align: right;
+	margin-top: 5px;
+}
+#codeDiv a {
+	text-decoration: none;
+	color:#fff;
+	padding: 2px;
+}
+#codeDiv a:hover {
+	text-decoration: none;
+	color:orange;
+	background-color: #f0f0f0;
+	border: solid 1px red;
+}
