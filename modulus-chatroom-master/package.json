@@ -1,0 +1,13 @@
+{
+  "name": "Modulus-ChatRoom",
+  "version": "0.1.0",
+  "description": "a simple example of chat room.",
+  "main": "app.js",
+  "author": "flicker",
+  "dependencies": {
+    "socket.io": "0.9.16"
+  },
+  "engines": {
+    "node": "0.10.21"
+  }
+}

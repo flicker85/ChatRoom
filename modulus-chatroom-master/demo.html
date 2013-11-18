@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<link href="style/demo.css" type="text/css" rel="stylesheet"/>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="javascript/demo.js"></script>
+	</head>
+	<body>		
+		<div class="content">
+			<div id="imgsDiv">
+				<a href="#"><img src="images/01.jpg"/></a>
+				<a href="#"><img src="images/02.jpg"/></a>
+				<a href="#"><img src="images/03.jpg"/></a>
+				<a href="#"><img src="images/04.jpg"/></a>
+				<a href="#"><img src="images/05.jpg"/></a>
+				<a href="#"><img src="images/06.jpg"/></a>
+			</div>
+			<div>
+				<textarea id="txt">...</textarea>
+			</div>
+			<div class="submit">
+				<span id="online"></span>
+				<span id="status">离线</span>
+				<input type="button" id="joinBtn" value="加入"/>
+				<input type="button" id="abortBtn" value="离开"/>
+				<input type="button" id="sendBtn" value="发送"/>
+			</div>
+			<div id="panel">
+				
+			</div>
+			<a href="#" id="next" style="position:fixed;right:25px;bottom:25px;">Next</a>
+		</div>
+		<div id="template">
+			<div>
+				<img src=""/>
+				<p></p>
+			</div>
+		</div>
+		<div class="background"><img id="bg" src="images/background.jpg"/></div>
+	</body>
+</html>
